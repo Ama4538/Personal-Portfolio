@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root {
+  --font-color: 248, 251, 252;
+  --background-color: 15, 30, 31;
+  --primary-color: 59, 120, 125;
+  --secondary-color: 14, 47, 57;
+  --acent-color: 67, 175, 208;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Common  */
+.flex-display {
+  display: flex;
+}
+
+.medium-fontSize {
+  font-size: 1.5rem;
+}
+
+.default-text {
+  font-family: 'Roboto', sans-serif;
+  color: rgba(var(--font-color));
+}
+
+/* Nav */
+nav {
+  position: sticky;
+  top: 0;
+  justify-content: space-between;
+  align-content: center;
+  z-index: 100;
+  padding: 1rem 3rem;
+  background-color: rgba(var(--background-color), 0.5);
+}
+
+.nav-list {
+  gap: 5rem;
+  list-style: none;
+}
+
+.nav-link{
+  text-decoration: none;
+}
+
+/* Hero */
+.hero {
+  min-height: 100dvh;
+  background-image: url('./assets/hero-img.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.hero-text {
+  padding: 19.5rem 12rem 12rem 10rem;
+}
+
+.hero-text > h3 {
+  font-size: 4rem;
+}
+
+.hero-text > h1 {
+  font-size: 5rem;
+}
+
+.hero-text > h2 {
+  font-size: 3rem;
+}
+
+/* Media */
+@media (max-width: 500px) {
+  nav {
+    justify-content: center;
+  }
+
+  .nav-name {
+    display: none;
+  }
+
+  .nav-list {
+    gap: 3rem;
+  }
+
+  .hero-text {
+    display: grid;
+    justify-items: center;
+    padding: 18rem 1rem 4rem 1rem;
+  }
+  
+  .hero-text > h3 {
+    font-size: 2.5rem;
+  }
+  
+  .hero-text > h1 {
+    font-size: 4rem;
+  }
+  
+  .hero-text > h2 {
+    font-size: 1.25rem;
+  }
+
+}
