@@ -5,27 +5,71 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio</title>
   <script src = './index.js'></script>
+  
 </head>
 <body>
-  
+  <nav class = "flex-display">
+    <h6 class = "nav-name medium-fontSize default-text"> Kevin Ly </h6>
+    <ul class = "nav-list flex-display medium-fontSize">
+      <li><a class = "nav-link default-text" href="#projects">Projects</a></li>
+      <li><a class = "nav-link default-text" href="">About</a></li>
+      <li><a class = "nav-link default-text" href="">Contact</a></li>
+    </ul>
+  </nav>
   <header class = "hero">
-    <nav class = "flex-display">
-      <h6 class = "nav-name medium-fontSize default-text"> Kevin Ly </h6>
-      <ul class = "nav-list flex-display medium-fontSize">
-        <li><a class = "nav-link default-text" href="">Projects</a></li>
-        <li><a class = "nav-link default-text" href="">About</a></li>
-        <li><a class = "nav-link default-text" href="">Contact</a></li>
-      </ul>
-    </nav>
-
     <div class="hero-text">
-      <h3 class = "default-text"> Hey there, </h3>
+      <h3 class = "default-text"> Hey there! </h3>
       <h1 class = "default-text"> I am Kevin Ly </h1>
       <h2 class = "default-text"> A CS student at George Mason University</h2>
+      <div class="hero-btnContainer flex-display">
+        <button class = "hero-button medium-fontSize default-text">View Projects</button>
+        <button class = "hero-button medium-fontSize default-text">Contact Me</button>
+      </div>
     </div>
   </header>
   
+  <section class = "project-section flex-display" id = "projects">
+    <h3 class = "section-title default-text flex-display"> Things I've Built </h3>
 
-  <!--  -->
+    <div class="projectContainer flex-display">
+      <img class = "project-image" src="./assets/placeholder.jpg" alt="">
+      <div class="project-infoContainer">
+        <h3 class = "project-title default-text flex-display">Project Title</h3>
+        <p class = "project-info default-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, culpa aliquam amet ad asperiores ipsum error excepturi temporibus. Veritatis vitae hic molestiae suscipit minima saepe, quidem quo ad repudiandae cum!</p>
+        <p class = "project-built-with default-text">Built with: </p>
+        <div class="project-btnContainer flex-display">
+          <button class = "project-btn medium-fontSize default-text"> View Live </button>
+          <button class = "project-btn medium-fontSize default-text"> View Code </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="projectContainer flex-display">
+      <img class = "project-image" src="./assets/placeholder.jpg" alt="">
+      <div class="project-infoContainer">
+        <h3 class = "project-title default-text flex-display">Project Title</h3>
+        <p class = "project-info default-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, culpa aliquam amet ad asperiores ipsum error excepturi temporibus. Veritatis vitae hic molestiae suscipit minima saepe, quidem quo ad repudiandae cum!</p>
+        <p class = "project-built-with default-text">Built with: </p>
+        <div class="project-btnContainer flex-display">
+          <button class = "project-btn medium-fontSize default-text"> View Live </button>
+          <button class = "project-btn medium-fontSize default-text"> View Code </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="projectContainer flex-display">
+      <img class = "project-image" src="./assets/placeholder.jpg" alt="">
+      <div class="project-infoContainer">
+        <h3 class = "project-title default-text flex-display">Project Title</h3>
+        <p class = "project-info default-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, culpa aliquam amet ad asperiores ipsum error excepturi temporibus. Veritatis vitae hic molestiae suscipit minima saepe, quidem quo ad repudiandae cum!</p>
+        <p class = "project-built-with default-text">Built with: </p>
+        <div class="project-btnContainer flex-display">
+          <button class = "project-btn medium-fontSize default-text"> View Live </button>
+          <button class = "project-btn medium-fontSize default-text"> View Code </button>
+        </div>
+      </div>
+    </div>
+
+  </section>
 </body>
 </html>
