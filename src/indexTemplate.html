@@ -5,19 +5,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio</title>
   <script src = './index.js'></script>
-  
+
 </head>
 <body>
   <nav class = "flex-display">
     <h6 class = "nav-name medium-fontSize default-text"> Kevin Ly </h6>
     <ul class = "nav-list flex-display medium-fontSize">
       <li><a class = "nav-link default-text" href="#projects">Projects</a></li>
-      <li><a class = "nav-link default-text" href="">About</a></li>
-      <li><a class = "nav-link default-text" href="">Contact</a></li>
+      <li><a class = "nav-link default-text" href="#about">About</a></li>
+      <li><a class = "nav-link default-text" href="#contact">Contact</a></li>
     </ul>
   </nav>
   <header class = "hero">
-    <div class="hero-text">
+    <article class="hero-text">
       <h3 class = "default-text"> Hey there! </h3>
       <h1 class = "default-text"> I am Kevin Ly </h1>
       <h2 class = "default-text"> A CS student at George Mason University</h2>
@@ -25,15 +25,15 @@
         <button class = "hero-button medium-fontSize default-text">View Projects</button>
         <button class = "hero-button medium-fontSize default-text">Contact Me</button>
       </div>
-    </div>
+    </article>
   </header>
   
   <section class = "project-section flex-display" id = "projects">
     <h3 class = "section-title default-text flex-display"> Things I've Built </h3>
 
-    <div class="projectContainer flex-display">
+    <article class="projectContainer flex-display">
       <img class = "project-image" src="./assets/placeholder.jpg" alt="">
-      <div class="project-infoContainer">
+      <article class="project-infoContainer">
         <h3 class = "project-title default-text flex-display">Project Title</h3>
         <p class = "project-info default-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, culpa aliquam amet ad asperiores ipsum error excepturi temporibus. Veritatis vitae hic molestiae suscipit minima saepe, quidem quo ad repudiandae cum!</p>
         <p class = "project-built-with default-text">Built with: </p>
@@ -41,12 +41,12 @@
           <button class = "project-btn medium-fontSize default-text"> View Live </button>
           <button class = "project-btn medium-fontSize default-text"> View Code </button>
         </div>
-      </div>
-    </div>
+      </article>
+    </article>
 
-    <div class="projectContainer flex-display">
+    <article class="projectContainer flex-display">
       <img class = "project-image" src="./assets/placeholder.jpg" alt="">
-      <div class="project-infoContainer">
+      <article class="project-infoContainer">
         <h3 class = "project-title default-text flex-display">Project Title</h3>
         <p class = "project-info default-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, culpa aliquam amet ad asperiores ipsum error excepturi temporibus. Veritatis vitae hic molestiae suscipit minima saepe, quidem quo ad repudiandae cum!</p>
         <p class = "project-built-with default-text">Built with: </p>
@@ -54,12 +54,12 @@
           <button class = "project-btn medium-fontSize default-text"> View Live </button>
           <button class = "project-btn medium-fontSize default-text"> View Code </button>
         </div>
-      </div>
-    </div>
+      </article>
+    </article>
 
-    <div class="projectContainer flex-display">
+    <article class="projectContainer flex-display">
       <img class = "project-image" src="./assets/placeholder.jpg" alt="">
-      <div class="project-infoContainer">
+      <article class="project-infoContainer">
         <h3 class = "project-title default-text flex-display">Project Title</h3>
         <p class = "project-info default-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, culpa aliquam amet ad asperiores ipsum error excepturi temporibus. Veritatis vitae hic molestiae suscipit minima saepe, quidem quo ad repudiandae cum!</p>
         <p class = "project-built-with default-text">Built with: </p>
@@ -67,9 +67,39 @@
           <button class = "project-btn medium-fontSize default-text"> View Live </button>
           <button class = "project-btn medium-fontSize default-text"> View Code </button>
         </div>
-      </div>
-    </div>
+      </article>
+    </article>
+  </section>
 
+  <section class = "about-section" id="about">
+    <h3 class = "section-title default-text flex-display">About Me</h3>
+    <article class = "about-container flex-display">
+      <article class = "about-info">
+        <p class = "about-me default-text">I'm a sophomore at George Mason University pursuing a degree in computer science. My approach to web development is content first than experience. To me, content is what hooks an individual to an particulars website while the experience achieved is what keeps them coming back. Aside from coding I'm a carefree person who happens to be louder than his own good. I'm an avid gym addict, reddit guru, and the best at finishing last on the score board at every game I play. </p>
+        <h6 class = "default-text flex-display">“Be decisive. Right or Wrong, make a decision. The road of life is paved with flat squirrels that couldn't make a decision” </h6>
+      </article>
+
+      <article class = "about-skills flex-display">
+        <h6 class = "default-text"> Frontend </h6>
+        <div class="skill-iconContainer flex-display">
+          <img src="./assets/html-icon.png" alt="HTML logo">
+          <img src="./assets/JS-icon.png" alt="JS logo">
+          <img src="./assets/CSS-icon.png" alt="CSS logo">
+        </div>
+      </article>
+    </article>
+  </section>
+
+  <section class="contact-section" id = "contact">
+    <h3 class = "section-title default-text flex-display"> Get In Touch</h3>
+    <article class = "contact-container flex-display">
+      <h6 class = "default-text">Voldableprism09@outlook.com</h6>
+      <button class = "contact-resume default-text"> Resume </button>
+    </article>
+    <article class = "contact-social flex-display">
+      <img src="./assets/linkin-icon.png" alt="linkin-icon">
+      <img src="./assets/github-icon.png" alt="github-icon">
+    </article>
   </section>
 </body>
 </html>
