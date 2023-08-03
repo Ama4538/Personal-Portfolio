@@ -4,16 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio</title>
-  <script src = './index.js'></script>
-
 </head>
 <body>
   <nav class = "flex-display">
     <h6 class = "nav-name medium-fontSize default-text"> Kevin Ly </h6>
     <ul class = "nav-list flex-display medium-fontSize">
-      <li><a class = "nav-link default-text" href="#projects">Projects</a></li>
-      <li><a class = "nav-link default-text" href="#about">About</a></li>
-      <li><a class = "nav-link default-text" href="#contact">Contact</a></li>
+      <li class = "nav-item"><a class = "nav-link default-text" href="#projects">Projects</a></li>
+      <li class = "nav-item"><a class = "nav-link default-text" href="#about">About</a></li>
+      <li class = "nav-item"><a class = "nav-link default-text" href="#contact">Contact</a></li>
     </ul>
   </nav>
   <header class = "hero">
@@ -22,8 +20,8 @@
       <h1 class = "default-text"> I am Kevin Ly </h1>
       <h2 class = "default-text"> A CS student at George Mason University</h2>
       <div class="hero-btnContainer flex-display">
-        <button class = "hero-button medium-fontSize default-text">View Projects</button>
-        <button class = "hero-button medium-fontSize default-text">Contact Me</button>
+        <a href="#projects"><button class = "hero-button btn-hover medium-fontSize default-text">View Projects</button></a>
+        <a href="#contact"><button class = "hero-button btn-hover medium-fontSize default-text">Contact Me</button></a>
       </div>
     </article>
   </header>
@@ -38,8 +36,8 @@
         <p class = "project-info default-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, culpa aliquam amet ad asperiores ipsum error excepturi temporibus. Veritatis vitae hic molestiae suscipit minima saepe, quidem quo ad repudiandae cum!</p>
         <p class = "project-built-with default-text">Built with: </p>
         <div class="project-btnContainer flex-display">
-          <button class = "project-btn medium-fontSize default-text"> View Live </button>
-          <button class = "project-btn medium-fontSize default-text"> View Code </button>
+          <button class = "project-btn btn-hover  medium-fontSize default-text"> View Live </button>
+          <button class = "project-btn btn-hover  medium-fontSize default-text"> View Code </button>
         </div>
       </article>
     </article>
@@ -51,8 +49,8 @@
         <p class = "project-info default-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, culpa aliquam amet ad asperiores ipsum error excepturi temporibus. Veritatis vitae hic molestiae suscipit minima saepe, quidem quo ad repudiandae cum!</p>
         <p class = "project-built-with default-text">Built with: </p>
         <div class="project-btnContainer flex-display">
-          <button class = "project-btn medium-fontSize default-text"> View Live </button>
-          <button class = "project-btn medium-fontSize default-text"> View Code </button>
+          <button class = "project-btn btn-hover  medium-fontSize default-text"> View Live </button>
+          <button class = "project-btn btn-hover  medium-fontSize default-text"> View Code </button>
         </div>
       </article>
     </article>
@@ -64,8 +62,8 @@
         <p class = "project-info default-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, culpa aliquam amet ad asperiores ipsum error excepturi temporibus. Veritatis vitae hic molestiae suscipit minima saepe, quidem quo ad repudiandae cum!</p>
         <p class = "project-built-with default-text">Built with: </p>
         <div class="project-btnContainer flex-display">
-          <button class = "project-btn medium-fontSize default-text"> View Live </button>
-          <button class = "project-btn medium-fontSize default-text"> View Code </button>
+          <button class = "project-btn btn-hover   medium-fontSize default-text"> View Live </button>
+          <button class = "project-btn btn-hover  medium-fontSize default-text"> View Code </button>
         </div>
       </article>
     </article>
@@ -94,11 +92,11 @@
     <h3 class = "section-title default-text flex-display"> Get In Touch</h3>
     <article class = "contact-container flex-display">
       <h6 class = "default-text">Voldableprism09@outlook.com</h6>
-      <button class = "contact-resume default-text"> Resume </button>
+      <button class = "contact-resume btn-hover  default-text"> Resume </button>
     </article>
     <article class = "contact-social flex-display">
-      <img src="./assets/linkin-icon.png" alt="linkin-icon">
-      <img src="./assets/github-icon.png" alt="github-icon">
+      <a href="https://www.linkedin.com/in/kevin-ly-6b98ba203/" target="_blank"><img src="./assets/linkin-icon.png" class = "social-icon" alt="linkin-icon"></a>
+      <a href="https://github.com/Ama4538?tab=repositories" target="_blank"><img src="./assets/github-icon.png" class = "social-icon" alt="github-icon"></a>
     </article>
   </section>
 </body>
