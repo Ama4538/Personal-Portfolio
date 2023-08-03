@@ -278,7 +278,7 @@ nav>h6 {
 }
 
 /* Media */
-@media (width < 640px) {
+@media (max-width: 640px) {
   nav {
     justify-content: center;
   }
