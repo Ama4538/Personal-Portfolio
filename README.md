@@ -1,4 +1,6 @@
-![Portfolio Screenshot](images/screenshot.png)
+![Default Portfolio Screenshot](images/screenshot.png)
+![Phone Screenshot](images/phoneshot.png)
+![Tablet Screenshot](images/tabletshot.png)
 
 # Personal-Portfolio
 Personal Portfolio Website containing projects, skills, and contacts. The challenge of this portfolio was to make it responsive to phones and tablets. 
