@@ -1,7 +1,6 @@
 const path = require('path');
 
 module.exports = {
-  mode: 'development', 
   entry: './src/index.js',
   module: {
     rules: [
@@ -12,10 +11,6 @@ module.exports = {
       {
         test: /\.(svg|png|jpg|gif)$/,
         type: "asset/resource",
-      },
-      {
-        test: /\.css$/i,
-        use: ["style-loader", "css-loader"],
       },
     ],
   },
