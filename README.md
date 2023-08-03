@@ -1,4 +1,18 @@
-# Personal-Portfolio
+![Portfolio Screenshot](images/screenshot.png)
 
-img 
-Hero - https://unsplash.com/photos/QkvIvL8wYuw
+# Personal-Portfolio
+Personal Portfolio Website containing projects, skills, and contacts. The challenge of this portfolio was to make it responsive to phones and tablets. 
+
+## Access
+Accessible from https://ama4538.github.io/Personal-Portfolio/
+
+### Tech Stack
+- HTML
+- CSS
+- JavaScript
+
+### ToolS
+- Webpack
+
+## Credit
+Hero Image by Clay Banks from unsplash - https://unsplash.com/photos/u27Rrbs9Dwc
