@@ -11,7 +11,7 @@ Accessible from https://ama4538.github.io/Personal-Portfolio/
 - CSS
 - JavaScript
 
-### ToolS
+### Tools
 - Webpack
 
 ## Credit
