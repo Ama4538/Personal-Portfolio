@@ -4,14 +4,14 @@ const options = {
   threshold: 0.30,
 };
 
-const navObserver = new IntersectionObserver(function (entries, navObserver){
+const navObserver = new IntersectionObserver(function (entries) {
   entries.forEach((entry) => {
     if (!entry.isIntersecting) {
       nav.classList.add('nav-maincolor');
     } else {
       nav.classList.remove('nav-maincolor');
     }
-    
+
   })
 }, options)
 

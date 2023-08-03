@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 :root {
   --font-color: 248, 251, 252;
   --background-color: 15, 30, 31;
@@ -55,7 +56,7 @@ nav {
   border-bottom: 3px solid rgba(var(--primary-color));
 }
 
-nav > h6 {
+nav>h6 {
   padding-left: 3rem;
 }
 
@@ -66,11 +67,11 @@ nav > h6 {
   list-style: none;
 }
 
-.nav-link{
+.nav-link {
   text-decoration: none;
 }
 
-.nav-link:hover{
+.nav-link:hover {
   color: rgba(var(--acent-color));
 }
 
@@ -91,15 +92,15 @@ nav > h6 {
   opacity: 0;
 }
 
-.hero-text > h3 {
+.hero-text>h3 {
   font-size: 4rem;
 }
 
-.hero-text > h1 {
+.hero-text>h1 {
   font-size: 5rem;
 }
 
-.hero-text > h2 {
+.hero-text>h2 {
   font-size: 3rem;
 }
 
@@ -130,6 +131,7 @@ nav > h6 {
     background-color: rgba(var(--primary-color));
     scale: 1;
   }
+
   to {
     background-color: rgba(var(--secondary-color));
     scale: 1.0;
@@ -153,6 +155,7 @@ nav > h6 {
 .projectContainer {
   justify-content: center;
   gap: 2rem;
+  opacity: 0;
 }
 
 .project-image {
@@ -210,14 +213,14 @@ nav > h6 {
   padding-top: 3rem;
 }
 
-.about-me{
+.about-me {
   padding-bottom: 1rem;
   border-bottom: 4px solid rgba(var(--primary-color));
   line-height: 3rem;
   font-size: 1.85rem;
 }
 
-.about-info > h6 {
+.about-info>h6 {
   justify-content: center;
   padding-top: 1rem;
   font-size: 2rem;
@@ -229,7 +232,7 @@ nav > h6 {
   align-items: center;
 }
 
-.about-skills > h6 {
+.about-skills>h6 {
   font-size: 2.5rem;
 }
 
@@ -251,7 +254,7 @@ nav > h6 {
   align-items: center;
 }
 
-.contact-container > h6 {
+.contact-container>h6 {
   font-size: 3.5rem;
 }
 
@@ -294,16 +297,16 @@ nav > h6 {
     justify-items: center;
     padding: 18rem 1rem 4rem 1rem;
   }
-  
-  .hero-text > h3 {
+
+  .hero-text>h3 {
     font-size: 2.5rem;
   }
-  
-  .hero-text > h1 {
+
+  .hero-text>h1 {
     font-size: 3.5rem;
   }
-  
-  .hero-text > h2 {
+
+  .hero-text>h2 {
     font-size: 1.20rem;
   }
 
@@ -324,7 +327,7 @@ nav > h6 {
     padding: 2rem 0 0;
     font-size: 3rem;
   }
-  
+
   .projectContainer {
     flex-direction: column;
     gap: 0.5rem;
@@ -371,17 +374,17 @@ nav > h6 {
     flex-direction: column;
     padding-top: 0;
   }
-  
+
   .about-info {
     padding: 2rem 0 1rem 0;
   }
 
-  .about-me{
+  .about-me {
     font-size: 1.5rem;
     line-height: 2.25rem;
   }
 
-  .about-info > h6 {
+  .about-info>h6 {
     padding-bottom: 1rem;
     border-bottom: 4px solid rgba(var(--primary-color));
     font-size: 1.75rem;
@@ -403,7 +406,7 @@ nav > h6 {
     gap: 1rem;
   }
 
-  .contact-container > h6 {
+  .contact-container>h6 {
     padding-bottom: 1rem;
     font-size: 1.5rem;
     border-bottom: 4px solid rgba(var(--primary-color));
@@ -420,7 +423,7 @@ nav > h6 {
   .medium-fontSize {
     font-size: 2rem;
   }
-  
+
   nav {
     justify-content: center;
   }
@@ -439,16 +442,16 @@ nav > h6 {
     justify-items: center;
     padding: 25rem 1rem 4rem 1rem;
   }
-  
-  .hero-text > h3 {
+
+  .hero-text>h3 {
     font-size: 4rem;
   }
-  
-  .hero-text > h1 {
+
+  .hero-text>h1 {
     font-size: 5rem;
   }
-  
-  .hero-text > h2 {
+
+  .hero-text>h2 {
     font-size: 2.5rem;
   }
 
@@ -469,7 +472,7 @@ nav > h6 {
     padding: 2rem 0 0;
     font-size: 4.5rem;
   }
-  
+
   .projectContainer {
     flex-direction: column;
     gap: 0.75rem;
@@ -516,17 +519,17 @@ nav > h6 {
     flex-direction: column;
     padding-top: 0;
   }
-  
+
   .about-info {
     padding: 2rem 0 1rem 0;
   }
 
-  .about-me{
+  .about-me {
     font-size: 2rem;
     line-height: 3rem;
   }
 
-  .about-info > h6 {
+  .about-info>h6 {
     padding-bottom: 1rem;
     border-bottom: 4px solid rgba(var(--primary-color));
     font-size: 2rem;
@@ -539,7 +542,7 @@ nav > h6 {
     padding-top: 0rem;
   }
 
-  .about-skills > h6 {
+  .about-skills>h6 {
     font-size: 3.5rem;
   }
 
@@ -553,7 +556,7 @@ nav > h6 {
     gap: 2rem;
   }
 
-  .contact-container > h6 {
+  .contact-container>h6 {
     padding-bottom: 2rem;
     font-size: 2.5rem;
     border-bottom: 4px solid rgba(var(--primary-color));
@@ -617,7 +620,7 @@ nav > h6 {
     background-color: rgba(var(--background-color), 0.9);
   }
 
-  .about-me{
+  .about-me {
     padding-bottom: 1rem;
     border-bottom: 4px solid rgba(var(--primary-color));
     line-height: 2.5rem;
