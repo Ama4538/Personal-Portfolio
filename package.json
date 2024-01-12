@@ -7,8 +7,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack --congig webpack.dev.js",
+    "start": "webpack --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
