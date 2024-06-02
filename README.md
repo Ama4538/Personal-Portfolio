@@ -4,8 +4,8 @@
 Personal Portfolio Website containing projects, skills, and contacts.
 
 ## Table of Contents
-- [Access](#Access)
 - [Installation](#installation)
+- [Tech Stack](#tech-stack)
 - [License](#license)
 - [Credit](#Credit)
 
